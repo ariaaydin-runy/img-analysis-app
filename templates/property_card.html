@@ -1,0 +1,83 @@
+<div class="property-card">
+    {% if property.raw_image_urls %}
+    <img src="{{ property.raw_image_urls[0] }}" alt="Property" class="property-image" style="width: 100%; height: 200px; object-fit: cover; display: block;">
+    {% else %}
+    <div class="property-image" style="width: 100%; height: 200px; background: linear-gradient(135deg, #f1f5f9, #e2e8f0); display: flex; align-items: center; justify-content: center; color: #64748b;">
+        <i class="fas fa-home" style="font-size: 2rem;"></i>
+    </div>
+    {% endif %}
+    
+    <div class="property-content" style="padding: 1.25rem;">
+        <div class="property-meta" style="display: flex; gap: 1rem; margin-bottom: 1rem; font-size: 0.875rem; color: #64748b;">
+            <span><i class="fas fa-images" style="margin-right: 0.25rem;"></i> {{ property.images_analyzed }} images</span>
+            <span><i class="fas fa-calendar" style="margin-right: 0.25rem;"></i> {{ property.timestamp[:10] }}</span>
+            {% if property.get('sort_score') %}
+            <span><i class="fas fa-star" style="margin-right: 0.25rem;"></i> {{ property.sort_score }}/10</span>
+            {% endif %}
+        </div>
+        
+        <!-- Scores Display -->
+        {% if property.scores %}
+        <div class="scores-preview" style="margin-bottom: 1rem;">
+            <div class="score-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.5rem;">
+                {% for score_key, score_value in property.scores.items() %}
+                    {% if score_value is not none %}
+                    <div class="score-item" style="text-align: center;">
+                        <div class="score-value" style="font-weight: bold; font-size: 1.1rem; 
+                             color: {% if score_value >= 8 %}#059669{% elif score_value >= 6 %}#d97706{% else %}#dc2626{% endif %};"">>
+                            {{ score_value }}/10
+                        </div>
+                        <div class="score-label" style="font-size: 0.75rem; color: #6b7280; text-transform: capitalize;">
+                            {{ score_key.replace('_', ' ') }}
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        
+        <!-- Property Details -->
+        {% if property.property_details %}
+        <div class="property-badges" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;">
+            {% if property.property_details.property_type %}
+            <span class="badge-modern" style="background: #dbeafe; color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">
+                {{ property.property_details.property_type }}
+            </span>
+            {% endif %}
+            
+            {% if property.property_details.is_furnished %}
+            <span class="badge-modern" style="background: #dcfce7; color: #166534; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">
+                Furnished
+            </span>
+            {% endif %}
+            
+            {% if property.property_details.outdoor_space %}
+            <span class="badge-modern" style="background: #fef3c7; color: #92400e; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">
+                Outdoor Space
+            </span>
+            {% endif %}
+            
+            {% if property.property_details.estimated_sqft %}
+            <span class="badge-modern" style="background: #f3e8ff; color: #7c3aed; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">
+                {{ property.property_details.estimated_sqft }} sq ft
+            </span>
+            {% endif %}
+        </div>
+        {% endif %}
+        
+        <!-- Amenities Preview -->
+        {% if property.amenities %}
+        <div class="amenities-preview" style="margin-bottom: 1rem;">
+            <div style="font-size: 0.875rem; color: #6b7280; margin-bottom: 0.25rem;">Amenities:</div>
+            <div style="font-size: 0.8rem; color: #374151;">
+                {{ property.amenities[:3]|join(', ') }}{% if property.amenities|length > 3 %} +{{ property.amenities|length - 3 }} more{% endif %}
+            </div>
+        </div>
+        {% endif %}
+        
+        <a href="/property/{{ property.display_index }}" class="view-details-btn" style="display: inline-flex; align-items: center; background: #3b82f6; color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.875rem; transition: background-color 0.2s;">
+            View Analysis <i class="fas fa-arrow-right" style="margin-left: 0.5rem;"></i>
+        </a>
+    </div>
+</div>

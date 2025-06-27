@@ -1,0 +1,630 @@
+[
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 5,
+        "bathroom_quality": 5,
+        "natural_light": 7,
+        "overall_condition": 6,
+        "living_space_quality": 6,
+        "size_space": 6,
+        "building_quality": 6
+      },
+      "property_details": {
+        "property_type": "2BR",
+        "estimated_sqft": 800,
+        "total_images_analyzed": 10
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": true,
+        "digital_staging": true,
+        "outdoor_space": true
+      },
+      "amenities": [
+        "hardwood_floors",
+        "laundry_in_unit"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [],
+        "confidence_level": "high"
+      }
+    },
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/09171873ca49acf083da2844e1eed4ec-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/446cad3f76e274a6b9692e17197d834e-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/30cd739a313ba2be4a7f157f3978dfe0-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/bc2f97f40b360653af294502a687d0cc-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/92df61f0454a9b9473f5c9bcc75a78df-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/7d89af55e348c697dd3a044bfc9c7386-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/9c9217f94663c50fd68ab8ca569bf6f9-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/51905032e444d8ffadcb0eaf09bbee71-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8539e24d42ecf3f12d4cf3d8261e87fa-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/73106016a1f344f0e02822b5e8f70cc9-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-25T22:19:59.878908",
+    "analysis_method": "json_structured",
+    "original_property_index": 0,
+    "display_index": 1,
+    "total_images_available": 10
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 5,
+        "bathroom_quality": 5,
+        "natural_light": 4,
+        "overall_condition": 6,
+        "living_space_quality": 5,
+        "size_space": 5,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "2BR",
+        "estimated_sqft": 800,
+        "total_images_analyzed": 15
+      },
+      "flags": {
+        "fully_furnished": true,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "dishwasher"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 20,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/34847917/37191c36_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848133/5f23b4ee_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34609538/3b18b10f_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848222/bd6c8e8e_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34611279/209289fe_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34608558/2c32dc67_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34608171/a1656915_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34608244/9244e396_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848529/f8d3d8c4_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848287/d37fb92c_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848671/35b011c8_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848332/d055e13b_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848384/ff81c48d_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34616690/42bb4077_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34616432/84ea59d2_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34616217/537b8cb4_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34848445/f59ab5e6_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34613008/33492ec0_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34614138/5429aeaa_original.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/34612931/f8266471_original.jpg?im_w=960"
+    ],
+    "timestamp": "2025-06-26T09:47:01.974898",
+    "analysis_method": "json_structured",
+    "original_property_index": 1,
+    "display_index": 2,
+    "total_images_available": 20
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 6,
+        "bathroom_quality": 6,
+        "natural_light": 6,
+        "overall_condition": 7,
+        "living_space_quality": 6,
+        "size_space": 5,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 650,
+        "total_images_analyzed": 5
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": true,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "dishwasher",
+        "hardwood_floors",
+        "stainless_appliances"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "building_exterior"
+        ],
+        "confidence_level": "high"
+      }
+    },
+    "images_analyzed": 5,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1338464884682764605/original/ca130271-b7b8-4c5c-9da4-d7dfa1b2edca.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1338409840423207373/original/ebf0d321-499e-4a5a-8c98-428496ab236b.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1338464884682764605/original/e47017f1-7fb1-4398-9552-938458610e04.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1338409840423207373/original/c3d3d607-6e24-452c-aa81-2d98b53c534e.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1338464884682764605/original/bdd8df40-0e6f-4226-8047-7c81b8ee4852.jpeg?im_w=960"
+    ],
+    "timestamp": "2025-06-26T09:47:16.533874",
+    "analysis_method": "json_structured",
+    "original_property_index": 2,
+    "display_index": 3,
+    "total_images_available": 5
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 5,
+        "bathroom_quality": 4,
+        "natural_light": 6,
+        "overall_condition": 6,
+        "living_space_quality": 5,
+        "size_space": 5,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 600,
+        "total_images_analyzed": 7
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "hardwood_floors"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 7,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/fc4e9746a848e7068ea718e0379dbf71-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ccc7f3675409e84268a1239b1d91f8e4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/4f678ec0be1816d4dade6843c65e535f-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f7ae5cf385d2f147479e294258f58510-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/6eed9123186813545a2915f86a4128f5-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f715fac1cde90adab8fe4b525e589394-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/089444e91b40022989c4aaf32047775b-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:47:35.992424",
+    "analysis_method": "json_structured",
+    "original_property_index": 3,
+    "display_index": 4,
+    "total_images_available": 7
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 6,
+        "bathroom_quality": null,
+        "natural_light": 6,
+        "overall_condition": 6,
+        "living_space_quality": 6,
+        "size_space": 5,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 650,
+        "total_images_analyzed": 5
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "stainless_appliances",
+        "hardwood_floors"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "bathroom",
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 5,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/ba1f221d9aee25b7d776208fd370c89a-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ac3691b7a9fe15520e9677e75282be23-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8f46d54bcc5e734c1be470553773b3ad-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/41f656b129ea4882566a9c19d9aee1c2-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/99ff6c9987e7ce490704ac85cf3872cf-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:47:44.694936",
+    "analysis_method": "json_structured",
+    "original_property_index": 4,
+    "display_index": 5,
+    "total_images_available": 5
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 5,
+        "bathroom_quality": 5,
+        "natural_light": 6,
+        "overall_condition": 6,
+        "living_space_quality": 5,
+        "size_space": 5,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 650,
+        "total_images_analyzed": 10
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "hardwood_floors",
+        "stainless_appliances"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 9,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/e0e26a9fa1cb4dd4922801caf6954a5c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/a72ae7f27612509a6a2d7a209f42aed4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/db5d0ac8d4c50bab17a71eeee1d8d3a3-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/967cc40fc7d573ea1a3823eff7d0b2da-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/d59b82d97bf80849f376dc6be77446ff-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f95cd54502ec33d677538dbef5d9be0c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/aea0c8f5120a4308d0e22c8cb671e1e1-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/468f486acb97412a2ad5e6e3863ad0ba-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/78a0666856aa02b6749baabea5e5b605-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:48:02.894672",
+    "analysis_method": "json_structured",
+    "original_property_index": 5,
+    "display_index": 6,
+    "total_images_available": 9
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 3,
+        "bathroom_quality": null,
+        "natural_light": 5,
+        "overall_condition": 5,
+        "living_space_quality": 5,
+        "size_space": 4,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 500,
+        "total_images_analyzed": 8
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "hardwood_floors"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "bathroom",
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 9,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/708caced86a88799bf5464de3e621dc4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/58ab2a826665f0f3f30187b8f9f6d1c2-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/826867b1960494cebe3b8efb3ebff65f-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/dbce54ca93f54739e9cccdd996628cab-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/19616d02584da92884e9a705fea289ee-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/5e243abee438683767800c2662714677-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/6394f2ca9e3cdd07207506061d84dcf9-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f625ff9783a3928e56296fdbb3d574fa-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/b8e4a513393642507bdb8c62d3e3620c-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:48:19.340085",
+    "analysis_method": "json_structured",
+    "original_property_index": 6,
+    "display_index": 7,
+    "total_images_available": 9
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 6,
+        "bathroom_quality": 6,
+        "natural_light": 7,
+        "overall_condition": 7,
+        "living_space_quality": 7,
+        "size_space": 6,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 650,
+        "total_images_analyzed": 15
+      },
+      "flags": {
+        "fully_furnished": false,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "stainless_appliances",
+        "hardwood_floors"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "building_exterior"
+        ],
+        "confidence_level": "high"
+      }
+    },
+    "images_analyzed": 21,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/54594d6cfd46d2feab94a291b2473617-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/7924a9ffadd221cf2fcbda397887ac15-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/955e6d8b28f290453b645fc4d50042d3-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8424e3f5a4ffb415734a45fd1be9c36b-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/e2c101e4d23d5e71b643e3385318f31d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/7c442324151fa098f9dacba5db75cc63-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/255af9d120dbc1fefcefc9783b8609d9-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/50056dd522168386e71203ef578ff035-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/fe8e9632fc41d8d415b48fed01309b03-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/6c91800ab18251cc0b09f73651141dd4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/86fef7bd8f6c1a31999e3c0044d82120-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/e4f23ddf2f407b0c55b392579ffb481c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8800c1535cd088dd755210eb212bebff-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/5bb65c3d9c45cc3a7788a79c2a4fb18b-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/05a172e01c87219a8d0122ab3ea94728-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/af4363b7bbd9371a46b67c6ed0d8400c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/54a45c65db34141c2ba40a63a0fdca80-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/eaa2c5b7dd3a2334a82efe953a2b96d9-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/2e4e4889a5f24a8e982eabc458932e58-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/96daf5d436b8fb923143c05df9def82c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/08ce169ab06bad87218eee801e48c191-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:48:47.237763",
+    "analysis_method": "json_structured",
+    "original_property_index": 7,
+    "display_index": 8,
+    "total_images_available": 21
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": null,
+        "bathroom_quality": null,
+        "natural_light": 5,
+        "overall_condition": 6,
+        "living_space_quality": 5,
+        "size_space": 4,
+        "building_quality": 8
+      },
+      "property_details": {
+        "property_type": "Studio",
+        "estimated_sqft": 300,
+        "total_images_analyzed": 12
+      },
+      "flags": {
+        "fully_furnished": true,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "stainless_appliances",
+        "gym"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "kitchen",
+          "bathroom",
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 25,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/21a2329a-4e57-4830-a81a-e0c83f37e641.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1142128655151068091/original/6d7e58d4-ef61-4029-b966-4d0d874dcf83.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1142128655151068091/original/527230e6-5784-4fc9-a8c1-c89c5c80cc36.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1142128655151068091/original/899b66ab-a2cf-4d3a-b0e6-f5a4e0390aff.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/57d8d107-09fa-4bc4-81f1-0ec2f35b7f5c.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/92d4f2e3-6c9a-4c36-9979-987500fb7e95.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/22250b53-285c-4610-a380-5b2aa1136040.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/6219e75d-6489-47f4-a3e3-c9c7a90f2e87.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/58556b6b-0176-4771-8cbb-f990d07935e6.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/7dbf6a95-4008-479e-a290-45ad4ee0c58b.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/f0cffe55-3dc0-4cf1-8fb5-fc6bc42e1896.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/58adab28-ebb0-4ec4-86f3-3a0f410f072f.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/7695bd18-193a-412d-aae6-10e7262f211e.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/c20bb084-1f08-488b-a21e-a44c120488b2.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/90b72935-840a-45d0-a48b-45ab57fe3589.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/4f40eee3-6e3f-4578-9f0e-2823467ac7ab.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/98370852-b9fe-47d2-9222-0c1cd22a0ae7.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/3cf522e3-9b9c-4444-802a-e88b7fa0a185.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/db50ae12-5945-4544-83f8-cab3218ff043.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/87249e8f-85a4-4b78-b9f5-800a897a499f.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/8971ca77-603b-47bf-be08-55b3b8331723.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/f16f7a70-1ebb-49a2-b007-5ad8d815d7ab.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/097a027c-b0e8-4c85-b95e-e8062ed6e89b.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/946a662c-701d-4544-b4db-20a37f4d868a.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1094211166635531058/original/24068a66-1ef5-49ae-a16e-777abd4e38da.jpeg?im_w=960"
+    ],
+    "timestamp": "2025-06-26T09:49:16.574358",
+    "analysis_method": "json_structured",
+    "original_property_index": 8,
+    "display_index": 9,
+    "total_images_available": 35
+  },
+  {
+    "success": false,
+    "error": "Error code: 400 - {'error': {'message': 'Timeout while downloading https://photos.zillowstatic.com/fp/09a18df9d70bb9ebaf1067c7e0ebd4ca-cc_ft_1536.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}",
+    "refusal": false,
+    "images_analyzed": 0,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/c6cfbbbcccac9995b06a07b7b40ba40d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/14cb3150ab6ac52893b33b5017c0a1e7-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/540f4c3128a9046db96b8af7b794df74-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/b5536c33941763d9946951ee54f3c954-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/130285d5c31d514a519cb3b75567d1fd-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/05187b0ed99f089505476f2f0c33227e-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/af346444e96cc79dc5883bbd8a8927ac-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/01feb738f6536d79d5d920a6b06d93d3-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/9ef80e9a649b028cdef24b293bb1f482-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/d5b1a86737d98e878d951d016e7eedf4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/09a18df9d70bb9ebaf1067c7e0ebd4ca-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/3c225524dfdd3ba34f79c26aba3e3e79-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/dc5e54dba421a3c711e7fca1f5c16d9f-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ede9d299fcab881235e5ec948e24a468-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/e316153fe689c0b9a5b9fc578179f0f4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/e18d6bd89379d85d474ca9dd08fece97-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/fe4a11c2c6c94133e088d93e98f8ad7d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/361b66fef4bf82006b433775a0583336-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ba8924369349c46380fed5e5dcc4958b-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/fc47d692b8a87a5e5a3bc7b0531d8182-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/3c759551fd29649ed8c38bf683c51f40-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/068d9dcbd4dd80a997d790d22fb5c40b-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/0d60e37ac9181fcb7c341c73779d06f2-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ebe06e25073806937bdd390f7416c4c6-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/203b307c9faf17d0234b0c3c5faaf3f9-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:49:44.666639",
+    "original_property_index": 9,
+    "display_index": 10,
+    "total_images_available": 72
+  },
+  {
+    "success": true,
+    "analysis_data": {
+      "scores": {
+        "kitchen_quality": 5,
+        "bathroom_quality": null,
+        "natural_light": 6,
+        "overall_condition": 5,
+        "living_space_quality": 6,
+        "size_space": 5,
+        "building_quality": null
+      },
+      "property_details": {
+        "property_type": "1BR",
+        "estimated_sqft": 650,
+        "total_images_analyzed": 12
+      },
+      "flags": {
+        "fully_furnished": true,
+        "partially_furnished": false,
+        "digital_staging": false,
+        "outdoor_space": false
+      },
+      "amenities": [
+        "stainless_appliances",
+        "exposed_brick"
+      ],
+      "assessment_quality": {
+        "areas_unable_to_assess": [
+          "bathroom",
+          "building_exterior"
+        ],
+        "confidence_level": "medium"
+      }
+    },
+    "images_analyzed": 12,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/ab4e7f66-c2e6-4676-a278-622ea50c37e6.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/4b7e7861-0a78-4bea-a5fb-ac4550e6ad57.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/4c924243-70be-47ed-bf31-7fff9d27c912.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/88ad4bfe-e838-47c6-93dc-6844ba9fdb65.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/b371580c-0770-4715-9d32-9b95f1a41bc8.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/1fe6d803-c931-4e7b-86a5-d6bc0d0fbd2c.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/98e5811d-eb97-41af-8a15-93d2da144cad.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/8c26b63e-29c2-443b-b40e-412acddf0c02.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/a672d9d6-7878-4674-9e73-dc233b3f0976.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/520bfb4e-ed89-4500-8996-5fa620dee9df.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/8a691519-69b9-4923-a46f-1ce0cc46ed18.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-30695144/original/561a80e6-10ce-4377-a249-730433c70cbe.jpeg?im_w=960"
+    ],
+    "timestamp": "2025-06-26T09:50:21.777818",
+    "analysis_method": "json_structured",
+    "original_property_index": 10,
+    "display_index": 11,
+    "total_images_available": 12
+  },
+  {
+    "success": false,
+    "error": "Error code: 400 - {'error': {'message': 'Timeout while downloading https://photos.zillowstatic.com/fp/057c9fe191b8b4ecd04a1e8c857adc65-cc_ft_1536.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}",
+    "refusal": false,
+    "images_analyzed": 0,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/15a830ac4cdcd4f4a3c7c9741e202efe-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/00ce3ed96337302dab2558be1d8ac883-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/930fb671b0c6a3a19f703b1a732eb1b1-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/994b5f66b251255356ace285ca82869a-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/057c9fe191b8b4ecd04a1e8c857adc65-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ad75919342c3625cf586c827609b4d26-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/b2efc3222a60e677d4ed4003d3518cf5-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/3030c3036048e177878e6a0211d85867-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/c4d792b55a9070cc94176619001e41a9-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/96ca0a21720466e03db5b1dc92f024e1-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/77947e1e3e839b03f74951e6ee40daea-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/3836e782193290d4e97aba0d0bdfd490-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8cdd1ee03df55f824e9b5e13de86c475-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/5d3f85acb98a1def62bfbf167f9e3f29-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/caf9b69172dbc95e502482ae91565949-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/3711e1ece90a89311eb9973916a0783c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/e9f81670ab695bf3cc44fa038346b89b-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/c7e90a6a69d2d6e6c8c74d631cb73c9c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/24a40b88ced3a9a1a1fab144a04243af-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/666fd373aeaceadf159cb99006c72eab-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/9beafd4e776c392fb718ef55d8ad3557-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/d7498ab43f79c26bb44b7d182f694f89-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/109b78c96f81099dd239926545f21dad-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/cbe826e1697a2541a06bf90044d0e357-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/93176e2b7c3785bd4d1000ddbd8948e9-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-26T09:50:51.881290",
+    "original_property_index": 11,
+    "display_index": 12,
+    "total_images_available": 52
+  }
+]

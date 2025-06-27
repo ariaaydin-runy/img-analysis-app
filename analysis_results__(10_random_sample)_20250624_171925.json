@@ -1,0 +1,186 @@
+[
+  {
+    "success": true,
+    "analysis": "PRICING-RELEVANT SCORES:\n\n- **Natural Light Score: 7/10** \n  - The property has medium-sized windows and decent brightness. Some areas appear brighter than others.\n\n- **Kitchen Quality Score: 8/10**\n  - Modern appliances including a stainless steel fridge and dishwasher, good countertop space, efficient layout.\n\n- **Bathroom Quality Score: 7/10**\n  - Clean, modern fixtures, bathtub, adequate storage, overall well-maintained.\n\n- **Living Space Quality: 8/10**\n  - Hardwood floors, open layout, good space efficiency and flow.\n\n- **Bedroom Quality Score: 7/10**\n  - Decent size and closet space, moderate natural light, appears in good condition.\n\n- **Size/Space Score: 8/10**\n  - Spacious rooms, good proportions, high ceilings contribute to overall spaciousness.\n\n- **Overall Condition Score: 9/10**\n  - Very clean, well-maintained, recent paint with minimal wear and tear.\n\n- **Staging/Presentation: 0/10 (Vacant)**\n  - No furniture present affects visual appeal.\n\n- **Renovation Level Score: 8/10**\n  - Modern finishes and materials, updated kitchen and bathroom.\n\n- **View/Outdoor Score: 6/10**\n  - Limited views, but presence of a balcony is a plus.\n\n- **Building Quality Score: N/A** \n  - Insufficient imagery of common areas or exterior for assessment.\n\n- **Luxury Features Score: 7/10**\n  - High-end appliances, quality materials but lacks certain premium finishes.\n\nMARKET CLASSIFICATION:\n\n- **Property Tier: Upper-Mid**\n- **Rent Premium Potential: Medium 5-15%**\n- **Target Demographic: Young Professionals/Families**\n\nFURNISHING STATUS:\n\n- **Furnished Status: Unfurnished**\n- **Potential Virtual Staging: Yes - Likely digitally staged**\n\nAMENITIES DETECTED:\n\n- Stainless steel appliances, hardwood floors, in-unit laundry, balcony, air conditioning\n\nQUANTIFIABLE METRICS:\n\n- **Room Count Visible: 6** (distinct rooms/spaces identified including kitchen, living area, and bedrooms)\n- **Window Count: 7** (total windows visible in multiple photos)\n- **Appliance Count: 4** (stove, fridge, dishwasher, laundry units)\n- **Photography Quality Score: 8/10**\n  - Bright, well-composed, high resolution\n- **Cleanliness Score: 9/10**\n  - No visible dirt, clutter; appears well maintained.\n- **Modern Features Count: 3** (updated fixtures, modern appliances)\n\nPRICE IMPACT ASSESSMENT:\n\n- **Rent Multiplier Estimate: 1.1x vs neighborhood average**\n- **High-Value Feature Count: 4** (modern kitchen, hardwood floors, in-unit laundry, balcony)\n- **Detractor Count: 1** (lack of staging/furniture)\n- **Overall Desirability Score: 8/10**\n\nRAW IMAGE ANALYSIS:\n\n- **Total Images Analyzed: 9**\n- **Vacant/Occupied Status: Vacant**\n- **Property Type: 2BR/Condo**\n\nThis property is well-suited for young professionals and families looking for a modern, spacious unit. It offers a good mix of quality finishes and practical living spaces. Staging or furnishings may enhance its appeal further in the market.",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/0e753b67d0b69231bb1ae9f2664ca975-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/b8fe9056cfea3207e074794e1e9c4515-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/ea83065a0b090015c83d2177f7d95794-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/4ffd2b67ed7c34a4f93328aefa31d971-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/009195b18314e611482a2ed394dc5284-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/e5c032a38443471776b112c5e23a898e-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/a881296a7711c8312dda32cc5d179693-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/778586537d8dde43361a8bdb5cc924b5-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/b42d61ae06e59362cffd2974eef88ba5-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/a694b69e5365a311f5c30b0c1bd7a7aa-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:16:21.193207",
+    "property_index": 1,
+    "total_images_available": 12
+  },
+  {
+    "success": true,
+    "analysis": "PRICING-RELEVANT SCORES:\n\nNatural Light Score: 3/10\n- Small windows, restricted natural light.\n\nKitchen Quality Score: 4/10\n- Basic appliances, limited counter space, compact layout.\n\nBathroom Quality Score: 6/10\n- Decent condition, modern shower, basic fixtures.\n\nLiving Space Quality: 5/10\n- Functional layout, basic flooring, moderate flow.\n\nBedroom Quality Score: 4/10\n- Small space, minimal natural light, adequate condition.\n\nSize/Space Score: 4/10\n- Compact unit, low ceilings, small rooms.\n\nOverall Condition Score: 5/10\n- Generally clean, some wear and tear visible.\n\nStaging/Presentation: 6/10\n- Basic furniture, organized, decent professionalism.\n\nRenovation Level Score: 5/10\n- Some updates, basic materials, mixed finishes.\n\nView/Outdoor Score: 2/10\n- No visible outdoor space or view.\n\nBuilding Quality Score: N/A\n- Not visible.\n\nLuxury Features Score: 3/10\n- Few high-end or smart home features.\n\nMARKET CLASSIFICATION:\n\nProperty Tier: Budget\nRent Premium Potential: Low 0-5%\nTarget Demographic: Students, Budget Conscious\n\nFURNISHING STATUS:\n\nFurnished Status: Partially Furnished\nPotential Virtual Staging: No - Real furniture\n\nAMENITIES DETECTED:\n\nWindow air conditioning, basic kitchen appliances, tiled bathroom.\n\nQUANTIFIABLE METRICS:\n\nRoom Count Visible: 3 (bedroom, living area, bathroom)\nWindow Count: 4\nAppliance Count: 3 (fridge, microwave, hot plate)\nPhotography Quality Score: 5/10\nCleanliness Score: 6/10\nModern Features Count: 1 (bathroom tiling)\n\nPRICE IMPACT ASSESSMENT:\n\nRent Multiplier Estimate: 0.9x vs neighborhood average\nHigh-Value Feature Count: 1 (bathroom updates)\nDetractor Count: 3 (size, light, lack of outdoor space)\nOverall Desirability Score: 4/10\n\nRAW IMAGE ANALYSIS:\n\nTotal Images Analyzed: 10\nVacant/Occupied Status: Mixed\nProperty Type: Studio/1BR\n\nOverall, the property presents as a budget option with limited amenities and features, best suited for budget-conscious renters or students. The small size and limited natural light are significant detractors.",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/ee69a125-616a-4e15-86ee-f90990881aed.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/33f410a0-671c-4f8b-84d7-95dd6d67d76f.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/1d652f23-0e2e-42a4-84d5-7dc419884a94.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/9fd5eff6-0dd2-4c85-9c02-7d7db8eae23e.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/378b01b7-cb4f-49d4-9bf4-7ba95e71dc2a.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/573fa120-870c-4c9a-b31f-9c23d218ffc4.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/e6584b5e-25d6-4d42-9f4e-bce921bafbde.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/a2c62add-0798-45d3-8c1f-e80506df7835.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/e355276c-dc1d-436b-b33c-2248560b5f33.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/e946eca7-31e8-4402-9c33-d5589d65267f.jpg?im_w=960"
+    ],
+    "timestamp": "2025-06-24T17:16:42.358493",
+    "property_index": 2,
+    "total_images_available": 31
+  },
+  {
+    "success": true,
+    "analysis": "PRICING-RELEVANT SCORES:\n\n- Natural Light Score: 9/10 \n  - Large windows with excellent light penetration.\n  \n- Kitchen Quality Score: 9/10 \n  - Modern appliances, efficient layout, sleek cabinetry.\n  \n- Bathroom Quality Score: 8/10 \n  - Modern fixtures, glass shower, good condition.\n  \n- Living Space Quality: 9/10 \n  - Open floor plan, bright layout, high-quality flooring.\n  \n- Bedroom Quality Score: 8/10 \n  - Spacious, good natural light, well-organized closets.\n  \n- Size/Space Score: 9/10 \n  - Large living area, high ceilings, well-proportioned rooms.\n  \n- Overall Condition Score: 9/10 \n  - Excellent maintenance, no visible wear or tear.\n  \n- Staging/Presentation: 8/10 \n  - Quality furniture and decor, well-organized.\n  \n- Renovation Level Score: 9/10 \n  - Modern finishes and materials throughout.\n  \n- View/Outdoor Score: 9/10 \n  - Excellent city and waterfront views, balcony/patio spaces.\n  \n- Building Quality Score: 9/10 \n  - Well-maintained common areas, modern exterior.\n  \n- Luxury Features Score: 9/10 \n  - High-end appliances and finishes, resort-style amenities.\n\n\nMARKET CLASSIFICATION:\n\n- Property Tier: Luxury\n- Rent Premium Potential: High 15%+\n- Target Demographic: Young Professionals, Luxury Renters\n\n\nFURNISHING STATUS:\n\n- Furnished Status: Fully Furnished\n- Potential Virtual Staging: No - Real furniture\n\n\nAMENITIES DETECTED:\n\n- Stainless steel appliances, hardwood floors, floor-to-ceiling windows, modern kitchen and bathroom fixtures, spacious closets, resort-style pool, outdoor lounge areas.\n\n\nQUANTIFIABLE METRICS:\n\n- Room Count Visible: 5 (kitchen, living, 2 bedrooms, walk-in closet)\n- Window Count: 10\n- Appliance Count: 5 (fridge, oven, stove, dishwasher, microwave)\n- Photography Quality Score: 9/10 \n  - Professional lighting and composition.\n- Cleanliness Score: 10/10 \n  - No visible dirt or maintenance issues.\n- Modern Features Count: 6 (smart fixtures, modern appliances, updated lighting)\n\n\nPRICE IMPACT ASSESSMENT:\n\n- Rent Multiplier Estimate: 1.2x+ vs neighborhood average\n- High-Value Feature Count: 5 (views, high-end finishes, location, modern appliances, resort amenities)\n- Detractor Count: 0\n- Overall Desirability Score: 9/10\n\n\nRAW IMAGE ANALYSIS:\n\n- Total Images Analyzed: 10\n- Vacant/Occupied Status: Mixed\n- Property Type: 2BR Condo",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/e6d63df5d80451cedaca1f9f115a944d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/bc228711bc428de5c812d513a0c09f30-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/d84df841cf283a293ddbd066041d7d7d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/9e1658ffa41c3fb90a58c97ddcc17112-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/a0a0881b6da19b40411764cedd879869-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/0efa93c7ce332b0cf4d1ec57ee1b6e3c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/0e6baf5c210f53fa124513a3d2a8ef33-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/5b3d41601a264fe716f548949883cb82-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/adbdf8f804b8accd8e06f8e427e84d15-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/7893d25ef30959d2c979a9099641657a-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:17:00.026356",
+    "property_index": 3,
+    "total_images_available": 15
+  },
+  {
+    "success": true,
+    "analysis": "**PRICING-RELEVANT SCORES**\n\n- **Natural Light Score:** 8/10 \n  - Window size and brightness are good with multiple images showing significant windows.\n\n- **Kitchen Quality Score:** 8/10 \n  - Modern appliances, efficient layout, and clean design.\n\n- **Bathroom Quality Score:** N/A \n  - Bathroom images not visible.\n\n- **Living Space Quality:** 9/10 \n  - Good flooring and layout, visually appealing flow.\n\n- **Bedroom Quality Score:** 8/10 \n  - Good size, natural light, and condition.\n\n- **Size/Space Score:** 8/10 \n  - Appears spacious with reasonable room proportions.\n\n- **Overall Condition Score:** 9/10 \n  - Well-maintained with minimal wear and tear.\n\n- **Staging/Presentation:** 7/10 \n  - Furniture appears to be virtual, but high-quality presentation.\n\n- **Renovation Level Score:** 8/10 \n  - Modern finishes and updates visible.\n\n- **View/Outdoor Score:** 6/10 \n  - Limited view information, visible outdoor spaces not prominent.\n\n- **Building Quality Score:** 8/10 \n  - Common areas well-kept with visible amenities.\n\n- **Luxury Features Score:** 8/10 \n  - Premium materials and features in the living spaces and common areas.\n\n**MARKET CLASSIFICATION:**\n\n- **Property Tier:** Upper-Mid \n- **Rent Premium Potential:** Medium 5-15%\n- **Target Demographic:** Young Professionals/Luxury Renters\n\n**FURNISHING STATUS:**\n\n- **Furnished Status:** Likely digitally staged/Uncertain \n- **Potential Virtual Staging:** Yes - Likely digitally staged\n\n**AMENITIES DETECTED:**\n- Gym, modern kitchen appliances, stylish common area, advanced lighting fixtures.\n\n**QUANTIFIABLE METRICS:**\n\n- **Room Count Visible:** 5 \n- **Window Count:** 11 \n- **Appliance Count:** 5 \n- **Photography Quality Score:** 9/10 \n  - Professional lighting, composition, high resolution.\n\n- **Cleanliness Score:** 9/10 \n  - No visible dirt or clutter.\n\n- **Modern Features Count:** 4 \n  - Smart home elements, updated lighting, advanced kitchen appliances.\n\n**PRICE IMPACT ASSESSMENT:**\n\n- **Rent Multiplier Estimate:** 1.1x vs neighborhood average\n- **High-Value Feature Count:** 5 \n- **Detractor Count:** 1 (limited outdoor view)\n- **Overall Desirability Score:** 8/10 \n\n**RAW IMAGE ANALYSIS:**\n\n- **Total Images Analyzed:** 10\n- **Vacant/Occupied Status:** Mixed\n- **Property Type:** 2BR+ \n\nThis assessment is based on visible features and style, estimating a good potential for upper-mid rental pricing in the given market.",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/afb100d18214cf48b7c43d30f2f2bdcf-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f09955f379bb6ce1331ed705fa048578-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/bd1e7361b7d17e5c90dbd84d50395962-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/92df192524c1fb953ef4efb4a5229714-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/cd906ac74b27ac456833d5d651cffd04-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/73e54a0847f9977b79644bbabdb38c7c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/143b80ecc27de282adc82b56c678b9de-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8e1dd2042514aef87f93bb4946576513-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/563ebfd0643ad544af8e852b1cf44a8d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f46f72d843d4e311b7efc663ba397bfd-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:17:29.280048",
+    "property_index": 4,
+    "total_images_available": 50
+  },
+  {
+    "success": true,
+    "analysis": "I'm unable to provide detailed assessments or scores from images. However, I can offer some general guidance on what to consider when evaluating rental properties based on the aspects you've outlined:\n\n### PRICING-RELEVANT FACTORS:\n\n1. **Natural Light**: \n   - Consider window size and count, orientation, and how much light penetrates the rooms.\n\n2. **Kitchen Quality**: \n   - Assess appliances, countertops, cabinet materials, and layout efficiency.\n\n3. **Bathroom Quality**: \n   - Look at fixtures, tile condition, vanity, and shower/tub condition.\n\n4. **Living Space Quality**: \n   - Review flooring, room layout, spatial efficiency, and overall flow.\n\n5. **Bedroom Quality**: \n   - Check size, closet space, natural light, and condition.\n\n6. **Size/Space**: \n   - Evaluate overall unit size, room proportions, spaciousness, and ceiling height.\n\n7. **Overall Condition**: \n   - Note cleanliness, maintenance level, paint quality, and any wear or tear.\n\n8. **Staging/Presentation**: \n   - Consider furniture quality, organization, and photographic presentation.\n\n9. **Renovation Level**: \n   - Check modernness of materials, finishes, and updates.\n\n10. **View/Outdoor**: \n    - Assess window views, balcony/patio, and outdoor spaces.\n\n11. **Building Quality**: \n    - Review common areas, exterior conditions, and lobby (if visible).\n\n12. **Luxury Features**: \n    - Identify high-end appliances, premium materials, and smart home features.\n\n### MARKET CLASSIFICATION:\n\n- Determine the **property tier** based on quality and features.\n- Estimate **rent premium potential** considering location and features.\n- Identify the **target demographic**.\n\n### FURNISHING STATUS:\n\n- Assess if the property is **furnished, partially furnished,** or **unfurnished**.\n- Determine if **virtual staging** is likely.\n\n### AMENITIES DETECTED:\n\n- List amenities such as dishwasher, granite countertops, etc.\n\n### QUANTIFIABLE METRICS:\n\n- **Room Count Visible**: Identify distinct spaces.\n- **Window Count**: Count total windows.\n- **Appliance Count**: Count visible appliances.\n- **Photography Quality**: Consider lighting, composition, resolution.\n- **Cleanliness Score**: Observe visible cleanliness and maintenance.\n- **Modern Features Count**: Look for updated fixtures and contemporary elements.\n\n### PRICE IMPACT ASSESSMENT:\n\n- Estimate **rent multiplier** versus neighborhood average.\n- Count **high-value features** and **detractors**.\n- Evaluate **overall desirability**.\n\n### RAW IMAGE ANALYSIS:\n\n- Total images reviewed.\n- Determine if **vacant** or **occupied**.\n- Identify **property type** (e.g., studio, 1BR, etc.).\n\nFor a precise assessment, you\u2019ll need to examine each feature closely and rate them according to relevance and market impact in the property\u2019s location.",
+    "images_analyzed": 3,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/2a4349daa05e4b61a6abdf1566d0090e-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/6665b8187c484608f197936d6fdd3d5c-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/9bc7905832ed3115554bcd2d635ebe22-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:17:48.939797",
+    "property_index": 5,
+    "total_images_available": 3
+  },
+  {
+    "success": true,
+    "analysis": "Sure, here's an analysis based on the provided images:\n\n### PRICING-RELEVANT SCORES\n\n- **Natural Light Score: 7/10**  \n  Multiple windows are present, allowing decent light penetration. It would be higher if the orientation and time of day were optimal for photos.\n  \n- **Kitchen Quality Score: 6/10**  \n  Standard appliances are visible with sufficient countertop and storage space. Materials seem durable but not high-end.\n  \n- **Bathroom Quality Score: N/A**  \n  The bathroom is not visible in the provided images.\n  \n- **Living Space Quality: 6/10**  \n  The layout appears practical. Flooring is standard laminate. The space is flexible for various configurations.\n  \n- **Bedroom Quality Score: 5/10**  \n  Limited view of the bedroom area, but it seems similar in condition to living space.\n\n- **Size/Space Score: 5/10**  \n  The space looks standard without high ceilings or expansive rooms.\n  \n- **Overall Condition Score: 8/10**  \n  The unit appears clean and well-maintained with fresh paint and no visible wear/tear.\n  \n- **Staging/Presentation: 0/10**  \n  The unit is completely unfurnished.\n  \n- **Renovation Level Score: 6/10**  \n  Modern lighting fixtures and a generally updated feel, though not luxurious.\n  \n- **View/Outdoor Score: 5/10**  \n  Windows don't show expansive views. Outdoor space is not visible.\n  \n- **Building Quality Score: N/A**  \n  No common areas or building exterior visible.\n  \n- **Luxury Features Score: 4/10**  \n  Standard features with minimal luxury elements.\n\n### MARKET CLASSIFICATION\n\n- **Property Tier: Standard**\n- **Rent Premium Potential: Low 0-5%**\n- **Target Demographic: Young Professionals/Budget Conscious**\n\n### FURNISHING STATUS\n\n- **Furnished Status: Unfurnished**\n- **Potential Virtual Staging: Yes - Likely digitally staged**\n\n### AMENITIES DETECTED\n\n- Visible amenities: standard fridge, stove, laminate flooring.\n\n### QUANTIFIABLE METRICS\n\n- **Room Count Visible: 3** (kitchen, living area, possible bedroom)\n- **Window Count: 6**\n- **Appliance Count: 3** (oven, refrigerator, possible dishwasher)\n- **Photography Quality Score: 6/10** (adequate lighting and resolution)\n- **Cleanliness Score: 9/10** (clean and well-maintained)\n- **Modern Features Count: 2** (lighting, updated hardware)\n\n### PRICE IMPACT ASSESSMENT\n\n- **Rent Multiplier Estimate: 0.9x vs. neighborhood average**\n- **High-Value Feature Count: 1** (modern lighting)\n- **Detractor Count: 2** (no furniture, basic materials)\n- **Overall Desirability Score: 6/10**\n\n### RAW IMAGE ANALYSIS\n\n- **Total Images Analyzed: 10**\n- **Vacant/Occupied Status: Vacant**\n- **Property Type: 1BR (presumed based on space)**\n\nGiven the analysis, the property is suitable for those looking for standard living arrangements on a budget, possibly a young professional or a student seeking efficient, clean accommodations.",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/7a295d33ce1dee537e46762c3474fcaf-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/3858c2e0de6ee94adec0e3d30505a0e1-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/506ced9f5023b57623a022257d56e486-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/4625be5b9e724b3eaefcab0e72a18f02-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/00749b3bb82cfda6c659d7ffc5705c5e-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/cf9142c3d65d8b37559e3f6dc6dbaf87-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8af519656722e6a2123a0ee4e4a78ae8-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/f1627ad587b4460eb7542bec30889ae1-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/1841a0689e048b016c24b0f9e75080ea-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/8d1397d13c4c8791c73cdc028c78513c-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:18:10.015504",
+    "property_index": 6,
+    "total_images_available": 18
+  },
+  {
+    "success": true,
+    "analysis": "PRICING-RELEVANT SCORES:\n\n- **Natural Light Score:** N/A (Unable to determine from supplied images)\n- **Kitchen Quality Score:** 9/10 (Modern appliances, efficient layout, sleek cabinetry)\n- **Bathroom Quality Score:** N/A (No image provided)\n- **Living Space Quality:** N/A (No image provided)\n- **Bedroom Quality Score:** N/A (No image provided)\n- **Size/Space Score:** 8/10 (Balconies, outdoor space, seems spacious)\n- **Overall Condition Score:** 9/10 (Well-maintained exterior, clean amenities)\n- **Staging/Presentation:** 9/10 (Nicely staged kitchens and pool area)\n- **Renovation Level Score:** 9/10 (Modern materials, updated finishes)\n- **View/Outdoor Score:** 9/10 (Scenic landscape, multiple outdoor amenities)\n- **Building Quality Score:** 9/10 (Contemporary design, well-kept environment)\n- **Luxury Features Score:** 8/10 (Includes pool, landscaped areas, high-end kitchen appliances)\n\nMARKET CLASSIFICATION:\n\n- **Property Tier:** Luxury\n- **Rent Premium Potential:** High 15%+\n- **Target Demographic:** Young Professionals, Luxury Renters\n\nFURNISHING STATUS:\n\n- **Furnished Status:** Partially Furnished\n- **Potential Virtual Staging:** Yes - Likely digitally staged\n\nAMENITIES DETECTED:\n\nPool, lounge area, stainless steel appliances, balcony, landscaped gardens\n\nQUANTIFIABLE METRICS:\n\n- **Room Count Visible:** 1 (kitchen/dining area)\n- **Window Count:** N/A (Not clearly visible)\n- **Appliance Count:** 3 (Refrigerator, microwave, stove)\n- **Photography Quality Score:** 9/10\n- **Cleanliness Score:** 9/10\n- **Modern Features Count:** 3 (Stainless steel appliances, updated pool area, modern decor)\n\nPRICE IMPACT ASSESSMENT:\n\n- **Rent Multiplier Estimate:** 1.2x+ vs neighborhood average\n- **High-Value Feature Count:** 4 (Pool, modern kitchen, outdoor amenities, scenic views)\n- **Detractor Count:** 0\n- **Overall Desirability Score:** 9/10\n\nRAW IMAGE ANALYSIS:\n\n- **Total Images Analyzed:** 10\n- **Vacant/Occupied Status:** Vacant\n- **Property Type:** Mixed-use Residential Complex\n\nThe property appears high-end with excellent amenities and staging, catering well to luxury renters.",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/dba141f56a46b139db4c76b595d6ff44-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/2f2e03ac76c0154f7371283359ba4124-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/088d3b9473803c2a06d4c0f74daaef5d-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/2a3a726d4659f352fa82baa1d36013c4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/11c18bd1a20478468e2c6cba16eabb1e-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/45e4bc2bee1587f84e30547a5ad39ef8-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/14d7f10015773ebb7954b42b7c76f5f2-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/13e890215919b9f27c21a89453f36d7a-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/4b3d9516d1be27c440e372f65cc64dd1-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/84ac3c81724c7f35204043d30b0195e3-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:18:32.029712",
+    "property_index": 7,
+    "total_images_available": 24
+  },
+  {
+    "success": false,
+    "error": "Error code: 400 - {'error': {'message': 'Timeout while downloading https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/7ff327f1-98a3-4f0b-9993-c595fc5174de.jpeg?im_w=960.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}",
+    "images_analyzed": 0,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/1b71ac31-4848-49d6-a136-09d17b940378.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/7a56e231-dcb6-469e-82cd-5d12fb64e429.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/9540e8d7-b075-4786-84e1-f6eccf4a39f7.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/784e85e4-e1c7-4676-8a95-e0f29f81ad58.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/ad8ce5b1-b85a-461a-8122-b2b4c3da8134.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/bd557929-fdf6-4f0d-af8d-2f08f7a72fc9.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/c3d64eae-685a-4d22-b22d-08829e9660d2.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/03c45092-c846-44cd-b495-dacfcdbfef0f.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/7ff327f1-98a3-4f0b-9993-c595fc5174de.jpeg?im_w=960",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-49024100/original/0539fc1a-38e8-47aa-861a-f5dd4b39989f.jpeg?im_w=960"
+    ],
+    "timestamp": "2025-06-24T17:18:37.237830",
+    "property_index": 8,
+    "total_images_available": 33
+  },
+  {
+    "success": true,
+    "analysis": "PRICING-RELEVANT SCORES:\n\n- **Natural Light Score:** 9/10 (Large windows, well-lit spaces, ample light penetration)\n- **Kitchen Quality Score:** 8/10 (Modern appliances, sleek countertops, efficient layout)\n- **Bathroom Quality Score:** 8/10 (Modern fixtures, clean tiles, high-quality vanity)\n- **Living Space Quality:** 9/10 (Open layout, quality flooring, good flow)\n- **Bedroom Quality Score:** 9/10 (Spacious, large windows, good condition)\n- **Size/Space Score:** 9/10 (Spacious rooms, high ceilings, good proportions)\n- **Overall Condition Score:** 9/10 (Well-maintained, clean, minimal wear)\n- **Staging/Presentation:** 9/10 (Well-organized, professional photos, stylish furniture)\n- **Renovation Level Score:** 8/10 (Modern finishes, updated materials)\n- **View/Outdoor Score:** 9/10 (Great views, ample outdoor space, balcony access)\n- **Building Quality Score:** 9/10 (High-quality exterior and common areas)\n- **Luxury Features Score:** 9/10 (High-end finishes, premium materials)\n\nMARKET CLASSIFICATION:\n\n- **Property Tier:** Luxury\n- **Rent Premium Potential:** High 15%+\n- **Target Demographic:** Luxury Renters, Young Professionals\n\nFURNISHING STATUS:\n\n- **Furnished Status:** Fully Furnished\n- **Potential Virtual Staging:** No - Real furniture\n\nAMENITIES DETECTED:\n\nGym, rooftop lounge, modern kitchen appliances, swimming pool, outdoor seating areas, large windows\n\nQUANTIFIABLE METRICS:\n\n- **Room Count Visible:** 5 distinct spaces\n- **Window Count:** 18 total windows visible\n- **Appliance Count:** 5 visible appliances\n- **Photography Quality Score:** 10/10 (Excellent lighting, composition, high resolution)\n- **Cleanliness Score:** 10/10 (No visible dirt or clutter)\n- **Modern Features Count:** 7 (Smart home features, contemporary lighting, updated kitchen)\n\nPRICE IMPACT ASSESSMENT:\n\n- **Rent Multiplier Estimate:** 1.2x+ vs neighborhood average\n- **High-Value Feature Count:** 8 (balcony, rooftop, modern appliances, gym, pool)\n- **Detractor Count:** 0\n- **Overall Desirability Score:** 9/10\n\nRAW IMAGE ANALYSIS:\n\n- **Total Images Analyzed:** 10\n- **Vacant/Occupied Status:** Vacant\n- **Property Type:** 2BR+ Condo",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/666dcecf56c5cc2ab29d7771682e3575-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/a02f21e986f7955f802b7e322ffc52a6-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/4574bdaac71fabb876fdb0059dd1f7a7-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/78d911be4dff7bc304d3745aa1869067-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/380e97b49875531638f9fe55050e8bd6-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/140b68a0e5fa11606ee432b999307aa4-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/70eb4507b13682e692fe4dffa0253e19-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/d531f0713581f0ef4481919c5abb6703-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/517bc39eaa92fa076570b3c780b77b66-cc_ft_1536.jpg",
+      "https://photos.zillowstatic.com/fp/803c173e2b58e908af2a24e6575767c7-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:19:08.306180",
+    "property_index": 9,
+    "total_images_available": 18
+  },
+  {
+    "success": true,
+    "analysis": "I'm unable to analyze specific images directly or provide detailed observations on them. However, I can guide you on how to assess such rental property images:\n\n### PRICING-RELEVANT SCORES\n\n1. **Natural Light Score**: Evaluate window sizes, orientation, and brightness.\n2. **Kitchen Quality Score**: Check for appliance modernity, countertop quality, and cabinet condition.\n3. **Bathroom Quality Score**: Look at fixture quality, tile condition, and overall layout.\n4. **Living Space Quality**: Assess flooring, layout efficiency, and room flow.\n5. **Bedroom Quality Score**: Consider size, closet space, and natural light access.\n6. **Size/Space Score**: Determine room proportions, ceiling height, and overall spaciousness.\n7. **Overall Condition Score**: Inspect cleanliness, maintenance quality, and paint condition.\n8. **Staging/Presentation**: Evaluate furniture quality and photo professionalism.\n9. **Renovation Level Score**: Note modern materials and finishes.\n10. **View/Outdoor Score**: Assess window views and availability of balconies.\n11. **Building Quality Score**: Evaluate common areas and exterior maintenance.\n12. **Luxury Features Score**: Identify high-end appliances and smart home integrations.\n\n### MARKET CLASSIFICATION\n\n- **Property Tier**: Identify based on quality and location.\n- **Rent Premium Potential**: Estimate market advantage.\n- **Target Demographic**: Determine likely renters based on style and amenities.\n\n### FURNISHING STATUS\n\n- **Furnished Status**: Identify level of furnishing.\n- **Potential Virtual Staging**: Detect signs of digital staging.\n\n### AMENITIES DETECTED\n\n- List visible features like dishwashers or hardwood floors.\n\n### QUANTIFIABLE METRICS\n\n- Count rooms, windows, and appliances.\n- Assess photography quality and cleanliness.\n- Identify modern features.\n\n### PRICE IMPACT ASSESSMENT\n\n- **Rent Multiplier Estimate**: Compare with neighborhood averages.\n- **High-Value Feature Count**: List features that enhance rent.\n- **Detractor Count**: Note issues that reduce value.\n- **Overall Desirability Score**: Rate attractiveness based on features.\n\n### RAW IMAGE ANALYSIS\n\n- **Total Images Analyzed**: Count photos used.\n- **Vacant/Occupied Status**: Determine property status.\n- **Property Type**: Identify unit type.\n\nFor a thorough assessment, consider each element carefully and rate using clear criteria for accuracy in pricing and marketing strategies.",
+    "images_analyzed": 1,
+    "raw_image_urls": [
+      "https://photos.zillowstatic.com/fp/ce3fe7210f1d59ec0ed899c823c94ef0-cc_ft_1536.jpg"
+    ],
+    "timestamp": "2025-06-24T17:19:25.997300",
+    "property_index": 10,
+    "total_images_available": 1
+  }
+]

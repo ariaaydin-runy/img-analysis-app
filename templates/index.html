@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section" style="padding: 2rem 0;">
+    <div class="container">
+        <h1 class="hero-title" style="margin-bottom: 0.5rem;">Property Analysis</h1>
+        <p class="hero-subtitle" style="margin-bottom: 0;">{{ properties|length }} properties analyzed with AI-powered insights</p>
+    </div>
+</div>
+
+<!-- Control Panel -->
+<div class="container" style="padding: 1rem;">
+    <div class="control-panel" style="background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 2rem;">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <label for="viewMode" class="form-label"><strong>View Mode:</strong></label>
+                <select id="viewMode" class="form-select" onchange="updateView()">
+                    <option value="properties" {% if view_mode != 'images' %}selected{% endif %}>Property Cards</option>
+                    <option value="images" {% if view_mode == 'images' %}selected{% endif %}>Image Gallery</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="sortBy" class="form-label"><strong>Sort/Group By:</strong></label>
+                <select id="sortBy" class="form-select" onchange="updateView()">
+                    <option value="display_index" {% if sort_by == 'display_index' %}selected{% endif %}>Display Index</option>
+                    {% for key, name in score_categories.items() %}
+                    <option value="{{ key }}" {% if sort_by == key %}selected{% endif %}>{{ name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-4" id="scoreCategoryDiv" {% if view_mode != 'images' %}style="display: none;"{% endif %}>
+                <label for="scoreCategory" class="form-label"><strong>Image Category:</strong></label>
+                <select id="scoreCategory" class="form-select" onchange="updateView()">
+                    {% for key, name in score_categories.items() %}
+                    <option value="{{ key }}" {% if score_category == key %}selected{% endif %}>{{ name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </div>
+
+    {% if view_mode == 'images' %}
+        <!-- This will be handled by image_gallery.html template -->
+    {% elif score_bins %}
+        <!-- Score-binned property view -->
+        {% for bin_name, bin_properties in score_bins.items() %}
+            {% if bin_properties %}
+            <div class="score-bin" style="margin-bottom: 3rem;">
+                <h3 class="score-bin-title" style="color: #1f2937; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb;">
+                    {% if bin_name == 'Unscored' %}
+                        {{ bin_name }} Properties
+                    {% else %}
+                        Score {{ bin_name }}/10 ({{ bin_properties|length }} properties)
+                    {% endif %}
+                </h3>
+                <div class="property-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem;">
+                    {% for property in bin_properties %}
+                        {% include 'property_card.html' %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <!-- Regular property grid -->
+        <div class="property-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+            {% for property in properties %}
+                {% include 'property_card.html' %}
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if not properties %}
+    <div class="empty-state" style="text-align: center; padding: 4rem 2rem;">
+        <div class="empty-icon" style="margin-bottom: 1rem;">
+            <i class="fas fa-search" style="font-size: 3rem; color: #9ca3af;"></i>
+        </div>
+        <h3 class="empty-title" style="margin-bottom: 0.5rem; color: #374151;">No Analysis Results Found</h3>
+        <p class="empty-description" style="color: #6b7280;">Run the property_analyzer.py script first to generate analysis results.</p>
+    </div>
+    {% endif %}
+</div>
+
+<script>
+function updateView() {
+    const viewMode = document.getElementById('viewMode').value;
+    const sortBy = document.getElementById('sortBy').value;
+    const scoreCategory = document.getElementById('scoreCategory').value;
+    
+    // Show/hide score category selector
+    const scoreCategoryDiv = document.getElementById('scoreCategoryDiv');
+    if (viewMode === 'images') {
+        scoreCategoryDiv.style.display = 'block';
+    } else {
+        scoreCategoryDiv.style.display = 'none';
+    }
+    
+    // Build URL with parameters
+    const params = new URLSearchParams();
+    params.set('view_mode', viewMode);
+    params.set('sort_by', sortBy);
+    if (viewMode === 'images') {
+        params.set('score_category', scoreCategory);
+    }
+    
+    window.location.href = '/?' + params.toString();
+}
+</script>
+
+<style>
+.property-card {
+    background: white; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+    overflow: hidden; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    height: fit-content;
+}
+
+.property-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.view-details-btn:hover {
+    background-color: #2563eb !important;
+}
+
+@media (max-width: 768px) {
+    .property-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    .property-meta {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+    }
+    
+    .control-panel .row {
+        gap: 1rem;
+    }
+    
+    .control-panel .col-md-4 {
+        margin-bottom: 1rem;
+    }
+}
+</style>
+{% endblock %}

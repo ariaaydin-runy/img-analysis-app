@@ -1,0 +1,22 @@
+[
+  {
+    "success": true,
+    "analysis": "PRICING-RELEVANT SCORES:\n\n- Natural Light Score: 9/10 (Large windows, good light penetration)\n- Kitchen Quality Score: 8/10 (Modern appliances, efficient layout)\n- Bathroom Quality Score: 8/10 (Modern fixtures, clean, good condition)\n- Living Space Quality: 9/10 (Spacious, good flow, quality flooring)\n- Bedroom Quality Score: 8/10 (Good size, natural light, well-maintained)\n- Size/Space Score: 8/10 (Spacious rooms, high ceilings)\n- Overall Condition Score: 9/10 (Well-maintained, clean, minimal wear)\n- Staging/Presentation: 9/10 (Stylish furniture, well-organized)\n- Renovation Level Score: 8/10 (Modern finishes, updated)\n- View/Outdoor Score: 8/10 (Nice balcony, pleasant views)\n- Building Quality Score: N/A (No common areas visible)\n- Luxury Features Score: 7/10 (Some high-end appliances, modern design)\n\nMARKET CLASSIFICATION:\n\n- Property Tier: Upper-Mid\n- Rent Premium Potential: Medium 5-15%\n- Target Demographic: Young Professionals/Families\n\nFURNISHING STATUS:\n\n- Furnished Status: Fully Furnished\n- Potential Virtual Staging: No - Real furniture\n\nAMENITIES DETECTED:\n\n- Dishwasher, granite countertops, hardwood floors, balcony, modern appliances\n\nQUANTIFIABLE METRICS:\n\n- Room Count Visible: 5 (Living room, dining area, kitchen, bedroom, bathroom)\n- Window Count: 7 (Large windows in each room)\n- Appliance Count: 5 (Refrigerator, stove, microwave, dishwasher, washing machine)\n- Photography Quality Score: 9/10 (Professional lighting, composition)\n- Cleanliness Score: 9/10 (Very clean, well-maintained)\n- Modern Features Count: 4 (Updated fixtures, contemporary elements)\n\nPRICE IMPACT ASSESSMENT:\n\n- Rent Multiplier Estimate: 1.1x vs neighborhood average\n- High-Value Feature Count: 5 (Balcony, modern kitchen, hardwood floors, natural light, stylish design)\n- Detractor Count: 0 (No visible issues)\n- Overall Desirability Score: 9/10\n\nRAW IMAGE ANALYSIS:\n\n- Total Images Analyzed: 10\n- Vacant/Occupied Status: Occupied\n- Property Type: 2BR Condo",
+    "images_analyzed": 10,
+    "raw_image_urls": [
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/612ec451-1f1b-4eb2-b451-a4e49b993b15.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/d3eb4caa-48c3-46a0-bc8b-9d1356c32413.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/90760bf9-5d4c-42b7-ab23-a915c3819db5.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/cf1cedb0-5809-45b7-9962-dc02e927c6bb.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/d8868485-7b8c-4f0b-acd8-dafd7c57abfa.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/1125e82d-5d02-4cc8-93b7-519e38359649.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/f6afbb07-cd05-4ca6-9762-0be44e91dee5.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/4016e7d5-fd5c-4988-b68f-ba383e6f5b35.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/1855785b-3722-4361-8216-0ce280f9725c.jpg?im_w=960",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-742691067591689627/original/e9f4b723-0419-40b6-859f-f7fbf4effe73.jpg?im_w=960"
+    ],
+    "timestamp": "2025-06-24T22:15:52.501406",
+    "property_index": 10481,
+    "total_images_available": 28
+  }
+]

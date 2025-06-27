@@ -1,0 +1,385 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid" style="padding: 2rem;">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <a href="/" class="btn btn-outline-primary mb-3">
+                        <i class="fas fa-arrow-left"></i> Back to All Properties
+                    </a>
+                    <h1>Property {{ property.display_index }} - Detailed Analysis</h1>
+                    {% if property.original_property_index is defined %}
+                    <p class="text-muted">Original Property Index: {{ property.original_property_index }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Images and Scores Section -->
+        <div class="col-lg-8">
+            <!-- Scores Dashboard -->
+            {% if property.scores %}
+            <div class="scores-section mb-4">
+                <h3>Quality Scores</h3>
+                <div class="scores-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                    {% for score_key, score_value in property.scores.items() %}
+                        {% if score_value is not none %}
+                        <div class="score-card clickable-score" 
+                             data-score-category="{{ score_key }}"
+                             style="background: white; border: 2px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; text-align: center; cursor: pointer; transition: all 0.3s ease;">
+                            {% set color_class = 'color: #059669;' if score_value >= 8 else ('color: #d97706;' if score_value >= 6 else 'color: #dc2626;') %}
+                            <div class="score-value" style="font-size: 2rem; font-weight: bold; margin-bottom: 0.5rem; {{ color_class }}">
+                                {{ score_value }}/10
+                            </div>
+                            <div class="score-label" style="font-size: 0.9rem; color: #6b7280; text-transform: capitalize; font-weight: 500;">
+                                {{ score_key.replace('_', ' ') }}
+                            </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Images Gallery -->
+            <h3>Property Images</h3>
+            <div class="image-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                {% for url in property.raw_image_urls %}
+                <div class="image-item" data-image-index="{{ loop.index0 }}" 
+                     style="position: relative; border-radius: 8px; overflow: hidden; cursor: pointer; transition: transform 0.2s;">
+                    <img src="{{ url }}" alt="Property Image {{ loop.index }}" 
+                         style="width: 100%; height: 200px; object-fit: cover;" 
+                         onclick="openModal('{{ url }}', {{ loop.index }})">
+                    <div class="image-number" style="position: absolute; top: 0.5rem; left: 0.5rem; background: rgba(0,0,0,0.7); color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">
+                        {{ loop.index }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <!-- Property Details Sidebar -->
+        <div class="col-lg-4">
+            <div class="property-info">
+                <!-- Basic Info Card -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5><i class="fas fa-info-circle"></i> Property Details</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-sm">
+                            <tr>
+                                <td><strong>Display Index:</strong></td>
+                                <td>{{ property.display_index }}</td>
+                            </tr>
+                            {% if property.original_property_index is defined %}
+                            <tr>
+                                <td><strong>Original Index:</strong></td>
+                                <td>{{ property.original_property_index }}</td>
+                            </tr>
+                            {% endif %}
+                            <tr>
+                                <td><strong>Images Analyzed:</strong></td>
+                                <td>{{ property.images_analyzed }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total Images:</strong></td>
+                                <td>{{ property.total_images_available }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Analysis Date:</strong></td>
+                                <td>{{ property.timestamp[:19] }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Property Characteristics -->
+                {% if property.property_details %}
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5><i class="fas fa-home"></i> Property Characteristics</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-sm">
+                            {% if property.property_details.property_type %}
+                            <tr>
+                                <td><strong>Type:</strong></td>
+                                <td>{{ property.property_details.property_type }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if property.property_details.estimated_sqft %}
+                            <tr>
+                                <td><strong>Est. Sq Ft:</strong></td>
+                                <td>{{ property.property_details.estimated_sqft }}</td>
+                            </tr>
+                            {% endif %}
+                            <tr>
+                                <td><strong>Furnished:</strong></td>
+                                <td>
+                                    {% if property.property_details.is_furnished %}
+                                        <span class="badge bg-success">Yes</span>
+                                    {% else %}
+                                        <span class="badge bg-secondary">No</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Outdoor Space:</strong></td>
+                                <td>
+                                    {% if property.property_details.outdoor_space %}
+                                        <span class="badge bg-success">Yes</span>
+                                    {% else %}
+                                        <span class="badge bg-secondary">No</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Amenities -->
+                {% if property.amenities %}
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5><i class="fas fa-star"></i> Amenities</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="amenities-list">
+                            {% for amenity in property.amenities %}
+                            <span class="badge bg-light text-dark me-1 mb-1">{{ amenity }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Analysis Method Info -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5><i class="fas fa-cog"></i> Analysis Info</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-sm">
+                            <tr>
+                                <td><strong>Method:</strong></td>
+                                <td>{{ property.get('analysis_method', 'Unknown') }}</td>
+                            </tr>
+                            {% if property.structured_analysis and property.structured_analysis.assessment_notes %}
+                            {% set notes = property.structured_analysis.assessment_notes %}
+                            {% if notes.scoring_confidence %}
+                            <tr>
+                                <td><strong>Confidence:</strong></td>
+                                <td>
+                                    <span class="badge 
+                                        {% if notes.scoring_confidence == 'High' %}bg-success
+                                        {% elif notes.scoring_confidence == 'Medium' %}bg-warning
+                                        {% else %}bg-danger{% endif %}">
+                                        {{ notes.scoring_confidence }}
+                                    </span>
+                                </td>
+                            </tr>
+                            {% endif %}
+                            {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full JSON Output Section -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5><i class="fas fa-code"></i> Full Analysis Data (JSON)</h5>
+                    <button class="btn btn-sm btn-outline-secondary" onclick="toggleJson()">
+                        <span id="jsonToggleText">Show</span> JSON
+                    </button>
+                </div>
+                <div class="card-body" id="jsonOutput" style="display: none;">
+                    <pre><code class="language-json">{{ property | tojson(indent=2) }}</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Image Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Property Image</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" class="img-fluid" style="max-height: 80vh;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Image highlighting functionality
+let currentHighlightedCategory = null;
+
+function highlightImagesForCategory(category) {
+    // Clear previous highlights
+    document.querySelectorAll('.image-item').forEach(img => {
+        img.style.border = 'none';
+        img.style.transform = 'scale(1)';
+    });
+    
+    // Get tagged images for this category
+    const taggedImagesData = '{{ property.tagged_images | tojson | safe }}';
+    const taggedImages = JSON.parse(taggedImagesData.replace(/'/g, '"'));
+    
+    const categoryMap = {
+        'kitchen_quality': 'kitchen_images',
+        'bathroom_quality': 'bathroom_images', 
+        'living_space_quality': 'living_space_images',
+        'building_quality': 'building_images',
+        'natural_light': 'all_images',  // Natural light can be from any image
+        'overall_condition': 'all_images',
+        'size_space': 'all_images'
+    };
+    
+    const imageCategory = categoryMap[category];
+    if (!imageCategory || !taggedImages[imageCategory]) {
+        return;
+    }
+    
+    // Highlight relevant images
+    taggedImages[imageCategory].forEach(imgData => {
+        const imgElement = document.querySelector(`[data-image-index="${imgData.index}"]`);
+        if (imgElement) {
+            imgElement.style.border = '3px solid #3b82f6';
+            imgElement.style.transform = 'scale(1.05)';
+        }
+    });
+    
+    currentHighlightedCategory = category;
+}
+
+// Score card click handlers
+document.querySelectorAll('.clickable-score').forEach(card => {
+    card.addEventListener('click', function() {
+        const category = this.dataset.scoreCategory;
+        
+        // Toggle highlighting
+        if (currentHighlightedCategory === category) {
+            // Clear highlights
+            document.querySelectorAll('.image-item').forEach(img => {
+                img.style.border = 'none';
+                img.style.transform = 'scale(1)';
+            });
+            document.querySelectorAll('.clickable-score').forEach(c => {
+                c.style.borderColor = '#e5e7eb';
+                c.style.backgroundColor = 'white';
+            });
+            currentHighlightedCategory = null;
+        } else {
+            // Clear previous highlights
+            document.querySelectorAll('.clickable-score').forEach(c => {
+                c.style.borderColor = '#e5e7eb';
+                c.style.backgroundColor = 'white';
+            });
+            
+            // Highlight this score card
+            this.style.borderColor = '#3b82f6';
+            this.style.backgroundColor = '#eff6ff';
+            
+            // Highlight relevant images
+            highlightImagesForCategory(category);
+        }
+    });
+    
+    // Add hover effects
+    card.addEventListener('mouseenter', function() {
+        if (currentHighlightedCategory !== this.dataset.scoreCategory) {
+            this.style.borderColor = '#93c5fd';
+            this.style.backgroundColor = '#f8fafc';
+        }
+    });
+    
+    card.addEventListener('mouseleave', function() {
+        if (currentHighlightedCategory !== this.dataset.scoreCategory) {
+            this.style.borderColor = '#e5e7eb';
+            this.style.backgroundColor = 'white';
+        }
+    });
+});
+
+// Image modal functionality
+function openModal(imageUrl, imageNumber) {
+    document.getElementById('modalImage').src = imageUrl;
+    document.getElementById('modalTitle').textContent = 'Property {{ property.display_index }} - Image ' + imageNumber;
+    new bootstrap.Modal(document.getElementById('imageModal')).show();
+}
+
+// JSON toggle functionality
+function toggleJson() {
+    const jsonOutput = document.getElementById('jsonOutput');
+    const toggleText = document.getElementById('jsonToggleText');
+    
+    if (jsonOutput.style.display === 'none') {
+        jsonOutput.style.display = 'block';
+        toggleText.textContent = 'Hide';
+    } else {
+        jsonOutput.style.display = 'none';
+        toggleText.textContent = 'Show';
+    }
+}
+
+// Image hover effects
+document.querySelectorAll('.image-item').forEach(item => {
+    item.addEventListener('mouseenter', function() {
+        if (!this.style.border) {  // Only if not highlighted
+            this.style.transform = 'scale(1.02)';
+        }
+    });
+    
+    item.addEventListener('mouseleave', function() {
+        if (!this.style.border) {  // Only if not highlighted
+            this.style.transform = 'scale(1)';
+        }
+    });
+});
+</script>
+
+<style>
+.clickable-score {
+    user-select: none;
+}
+
+.clickable-score:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.image-item {
+    transition: all 0.3s ease;
+}
+
+.amenities-list .badge {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .scores-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    }
+    
+    .image-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+    }
+}
+</style>
+{% endblock %}
